@@ -14,6 +14,8 @@
 		AA227FE120973CDB003C510F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA227FDF20973CDB003C510F /* LaunchScreen.storyboard */; };
 		AA227FEC20973CDB003C510F /* FirstAppSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA227FEB20973CDB003C510F /* FirstAppSwiftTests.swift */; };
 		AA227FF720973CDB003C510F /* FirstAppSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA227FF620973CDB003C510F /* FirstAppSwiftUITests.swift */; };
+		AA9BEB18209A025C0001A4DB /* producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9BEB17209A025C0001A4DB /* producto.swift */; };
+		AA9BEB1A209A043B0001A4DB /* gestorProductos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9BEB19209A043B0001A4DB /* gestorProductos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AA227FF220973CDB003C510F /* FirstAppSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA227FF620973CDB003C510F /* FirstAppSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppSwiftUITests.swift; sourceTree = "<group>"; };
 		AA227FF820973CDB003C510F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9BEB17209A025C0001A4DB /* producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = producto.swift; sourceTree = "<group>"; };
+		AA9BEB19209A043B0001A4DB /* gestorProductos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestorProductos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				AA227FDD20973CDB003C510F /* Assets.xcassets */,
 				AA227FDF20973CDB003C510F /* LaunchScreen.storyboard */,
 				AA227FE220973CDB003C510F /* Info.plist */,
+				AA9BEB17209A025C0001A4DB /* producto.swift */,
+				AA9BEB19209A043B0001A4DB /* gestorProductos.swift */,
 			);
 			path = FirstAppSwift;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA227FD920973CD9003C510F /* ViewController.swift in Sources */,
+				AA9BEB18209A025C0001A4DB /* producto.swift in Sources */,
 				AA227FD720973CD9003C510F /* AppDelegate.swift in Sources */,
+				AA9BEB1A209A043B0001A4DB /* gestorProductos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
